@@ -1,0 +1,127 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		A146904A18D5570200D385E2 /* install_files.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = install_files.sh; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		A146903F18D54DAC00D385E2 = {
+			isa = PBXGroup;
+			children = (
+				A146904A18D5570200D385E2 /* install_files.sh */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		A146904618D5558B00D385E2 /* EeroXcodeSupport */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = A146904718D5558B00D385E2 /* Build configuration list for PBXLegacyTarget "EeroXcodeSupport" */;
+			buildPhases = (
+			);
+			buildToolPath = ./install_files.sh;
+			buildWorkingDirectory = "";
+			dependencies = (
+			);
+			name = EeroXcodeSupport;
+			passBuildSettingsInEnvironment = 1;
+			productName = EeroXcodeSupport;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		A146904018D54DAC00D385E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = A146904318D54DAC00D385E2 /* Build configuration list for PBXProject "EeroXcodeSupport" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A146903F18D54DAC00D385E2;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A146904618D5558B00D385E2 /* EeroXcodeSupport */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		A146904418D54DAC00D385E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = "$(HOME)";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				TEMPLATES_INSTALL_PATH = /Library/Developer/Xcode/Templates;
+			};
+			name = Debug;
+		};
+		A146904518D54DAC00D385E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = "$(HOME)";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				TEMPLATES_INSTALL_PATH = /Library/Developer/Xcode/Templates;
+			};
+			name = Release;
+		};
+		A146904818D5558B00D385E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DMG_ARCHIVE_LOCATION = "http://downloads.eerolanguage.org/easy%20installer/";
+				DMG_FILE = "Eero%20Support%20for%20Xcode%202014-03-15.dmg";
+				DMG_MOUNTPOINT = dmg_mountpoint;
+				PLUGIN_NAME = "Eero Xcode Plugin.xcplugin";
+				TEMPLATES_FOLDER_NAME = Eero;
+			};
+			name = Debug;
+		};
+		A146904918D5558B00D385E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DMG_ARCHIVE_LOCATION = "http://downloads.eerolanguage.org/easy%20installer/";
+				DMG_FILE = "Eero%20Support%20for%20Xcode%202014-03-15.dmg";
+				DMG_MOUNTPOINT = dmg_mountpoint;
+				PLUGIN_NAME = "Eero Xcode Plugin.xcplugin";
+				TEMPLATES_FOLDER_NAME = Eero;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A146904318D54DAC00D385E2 /* Build configuration list for PBXProject "EeroXcodeSupport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A146904418D54DAC00D385E2 /* Debug */,
+				A146904518D54DAC00D385E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A146904718D5558B00D385E2 /* Build configuration list for PBXLegacyTarget "EeroXcodeSupport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A146904818D5558B00D385E2 /* Debug */,
+				A146904918D5558B00D385E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A146904018D54DAC00D385E2 /* Project object */;
+}
