@@ -21,19 +21,19 @@
 /* End PBXGroup section */
 
 /* Begin PBXLegacyTarget section */
-		A146904618D5558B00D385E2 /* EeroXcodeSupport */ = {
+		A146904618D5558B00D385E2 /* eero-installer-for-alcatraz */ = {
 			isa = PBXLegacyTarget;
 			buildArgumentsString = "$(ACTION)";
-			buildConfigurationList = A146904718D5558B00D385E2 /* Build configuration list for PBXLegacyTarget "EeroXcodeSupport" */;
+			buildConfigurationList = A146904718D5558B00D385E2 /* Build configuration list for PBXLegacyTarget "eero-installer-for-alcatraz" */;
 			buildPhases = (
 			);
 			buildToolPath = ./install_files.sh;
 			buildWorkingDirectory = "";
 			dependencies = (
 			);
-			name = EeroXcodeSupport;
+			name = "eero-installer-for-alcatraz";
 			passBuildSettingsInEnvironment = 1;
-			productName = EeroXcodeSupport;
+			productName = eero-installer-for-alcatraz;
 		};
 /* End PBXLegacyTarget section */
 
@@ -43,7 +43,7 @@
 			attributes = {
 				LastUpgradeCheck = 0510;
 			};
-			buildConfigurationList = A146904318D54DAC00D385E2 /* Build configuration list for PBXProject "EeroXcodeSupport" */;
+			buildConfigurationList = A146904318D54DAC00D385E2 /* Build configuration list for PBXProject "eero-installer-for-alcatraz" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -54,7 +54,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A146904618D5558B00D385E2 /* EeroXcodeSupport */,
+				A146904618D5558B00D385E2 /* eero-installer-for-alcatraz */,
 			);
 		};
 /* End PBXProject section */
@@ -103,7 +103,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A146904318D54DAC00D385E2 /* Build configuration list for PBXProject "EeroXcodeSupport" */ = {
+		A146904318D54DAC00D385E2 /* Build configuration list for PBXProject "eero-installer-for-alcatraz" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A146904418D54DAC00D385E2 /* Debug */,
@@ -112,7 +112,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A146904718D5558B00D385E2 /* Build configuration list for PBXLegacyTarget "EeroXcodeSupport" */ = {
+		A146904718D5558B00D385E2 /* Build configuration list for PBXLegacyTarget "eero-installer-for-alcatraz" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A146904818D5558B00D385E2 /* Debug */,
