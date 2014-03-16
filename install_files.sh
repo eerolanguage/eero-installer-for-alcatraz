@@ -8,7 +8,6 @@
 if [ "$ACTION" = "clean" ]
 then
   rm -rf "${DSTROOT}/${INSTALL_PATH}/${PLUGIN_NAME}"
-  rm -rf "${DSTROOT}/${TEMPLATES_INSTALL_PATH}/${TEMPLATES_FOLDER_NAME}"
   rm -rf "${OBJROOT}/${DMG_MOUNTPOINT}"
 
 else
@@ -22,10 +21,6 @@ else
   PLUGIN_LOCATION=`find "${OBJROOT}/${DMG_MOUNTPOINT}" -name "${PLUGIN_NAME}" 2>/dev/null`
   
   cp -R -p "${PLUGIN_LOCATION}" "${DSTROOT}/${INSTALL_PATH}/"
-  
-  TEMPLATES_LOCATION=`find "${OBJROOT}/${DMG_MOUNTPOINT}" -name "${TEMPLATES_FOLDER_NAME}" 2>/dev/null`
-  
-  cp -R -p "${TEMPLATES_LOCATION}" "${DSTROOT}/${TEMPLATES_INSTALL_PATH}/"
   
   hdiutil detach "${OBJROOT}/${DMG_MOUNTPOINT}"
   
